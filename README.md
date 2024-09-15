@@ -31,8 +31,6 @@ To use the tools and resources provided in this repository, follow these steps:
     cd pingala_chhand_shastram
     ```
 
-3. **Install Dependencies**: If there are any dependencies or setup instructions, follow the specific instructions provided in this section.
-
 ## Contact
 
 For any questions or further information, please contact [jsvvps] at [jsvvps@gmail.com].
