@@ -2,6 +2,7 @@
 *{
  text-align:center;
  items-align:center;
+
 }
 
 body::-webkit-scrollbar{
@@ -100,8 +101,8 @@ position:absolute;
 .contaner{
 position:relative;
 margin:auto;
-width:100%;
-height:2000px;
+width:98%;
+height:100%;
 border:15px ridge black;
 padding:10px;
 border-radius:20px;
@@ -110,7 +111,7 @@ overflow-x:hidden;
 }
 
 /* When device width is less than 600px */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     .container {
         width: 100%;
         height:100px;
