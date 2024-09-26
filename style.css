@@ -23,10 +23,6 @@ textarea::-webkit-scrollbar{
 display:none;
 }
 
-body{
-
-background-color:#bab39b;
-}
 
 button{
   cursor: pointer;
@@ -101,7 +97,7 @@ position:absolute;
 .contaner{
 position:relative;
 margin:auto;
-width:98%;
+width:95%;
 height:100%;
 border:15px ridge black;
 padding:10px;
@@ -110,13 +106,6 @@ background-color:#e5dab3;
 overflow-x:hidden;
 }
 
-/* When device width is less than 600px */
-@media screen and (max-width: 400px) {
-    .container {
-        width: 100%;
-        height:100px;
-    }
-}
 
 #chhandpath::-webkit-scrollbar{display:none;}
 .contaner::-webkit-scrollbar{display:none;}
