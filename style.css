@@ -106,7 +106,7 @@ input{
   border-radius:20px;
   background-color:#e5dab3;
   overflow-x:hidden;
-  
+  display: block;
 }
 
 #chhandpath::-webkit-scrollbar{display:none;}
