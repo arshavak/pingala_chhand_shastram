@@ -112,7 +112,8 @@ overflow-x:hidden;
 /* When device width is less than 600px */
 @media only screen and (max-width: 600px) {
     .container {
-        width: 100%;
+        width: 1000px;
+        height:100px;
     }
 }
 
