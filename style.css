@@ -106,6 +106,7 @@ input{
   border-radius:20px;
   background-color:#e5dab3;
   overflow-x:hidden;
+  
 }
 
 #chhandpath::-webkit-scrollbar{display:none;}
@@ -142,6 +143,7 @@ input{
 
   .contaner {
     width: 100%; /* Full width for mobile */
+display: block;
     border-width: 5px; /* Thinner border for mobile */
   }
 }
