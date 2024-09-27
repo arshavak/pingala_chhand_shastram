@@ -112,6 +112,16 @@ input{
 #chhandpath::-webkit-scrollbar{display:none;}
 .contaner::-webkit-scrollbar{display:none;}
 
+#chhandpath{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.contaner{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 /* Mobile view adjustments */
 @media screen and (max-width: 900px) {
   textarea, h2 {
@@ -137,14 +147,3 @@ display: block;
     border-width: 5px; /* Thinner border for mobile */
   }
 }
-
-#chhandpath{
-  -ms-overflow-style: none;  /* IE and Edge */
- 
-}
-
-.contaner{
-  -ms-overflow-style: none;  /* IE and Edge */
-  
-}
-
