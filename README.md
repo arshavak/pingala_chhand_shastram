@@ -1,5 +1,5 @@
 ﻿# pingala_chhand_shastram
-
+View this application in browser. https://arshavak.github.io/pingala_chhand_shastram/
 Welcome to the `pingala_chhand_shastram` repository! This project is dedicated to the study and application of Pingala's Chhand Shastram, an ancient Sanskrit text on prosody and poetic meters.
 
 I am a student of Sanskrit and not very skilled in coding.
