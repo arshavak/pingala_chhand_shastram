@@ -51,5 +51,9 @@ document.getElementById("prastarabhedah").value=2**n;}
 //Other functions running........
 lg();
 gan();
+
+// ###############################
+
 }
+
 

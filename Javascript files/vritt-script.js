@@ -55,5 +55,7 @@ document.getElementById("vname").value= "विद्युन्माला" ;
 }else
 
 {document.getElementById("vname").value= "गाथा" }
-
 }
+
+
+
