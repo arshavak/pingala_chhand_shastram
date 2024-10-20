@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("fotos/bgchh.png");
+  background-image: url("fotos/background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-position: 100% 100%;
@@ -16,20 +16,29 @@ body {
 }
 label {
   margin-top: 15px;
+  margin-bottom: 15px;
   display: block;
   font-size: 15px;
+  color:#ffb670;
 }
 
 textarea {     
-  min-width: 250px;
+  min-width: 100%;
   resize: vertical;
   min-height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
 }
 
 
 
 input{
   outline: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
 }  
 
 
@@ -38,14 +47,14 @@ input{
   padding: 20px;
   position: relative;
   text-align: center;
-  background-color: #fffaf0b3;
+  background-color: #9d693af0;
 
 }
 .vivaran{
-  background-color: rgba(255, 242, 174, 0.525);
-color: rgb(2, 98, 98);
+  background-color: rgba(255, 241, 174, 0.686);
+/* color: rgb(2, 98, 98); */
 padding: 20px;
-font-size: smaller;
+font-size: 14px;
 }
 
 #falani{
@@ -55,15 +64,23 @@ font-size: smaller;
   font-size:0px;
 }
 
-h1{
-  color:#000;
+h3{
+  color:#fffd73;
 }
 
-h2 {
-  
+h4 {
+  color:#d2d04b;
   margin: auto;
   word-wrap:break-word;
   font-weight:900;
   overflow-x:hidden; 
- 
+}
+
+hr{
+  background-color: #000000;
+  height: 2px;
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 1px;
+
 }
