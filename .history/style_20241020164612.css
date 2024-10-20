@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url("fotos/bgchh.png");
+  background-image: url("fotos/background.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   
@@ -20,13 +20,6 @@ label {
   display: block;
   font-size: 15px;
   color:#ffb670;
-}
-
-#note{
-  font-size: 10px;
-  margin-top: 10px;
-  display: block;
-  color: rgb(255, 255, 5);
 }
 
 textarea {     
@@ -78,9 +71,6 @@ input{
 /* color: rgb(2, 98, 98); */
 padding: 20px;
 font-size: 14px;
-max-width: 600px;
-  margin: auto;
-  border-top:5px solid #000000;
 }
 
 #falani{

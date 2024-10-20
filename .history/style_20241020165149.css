@@ -22,13 +22,6 @@ label {
   color:#ffb670;
 }
 
-#note{
-  font-size: 10px;
-  margin-top: 10px;
-  display: block;
-  color: rgb(255, 255, 5);
-}
-
 textarea {     
   min-width: 100%;
   resize: vertical;
