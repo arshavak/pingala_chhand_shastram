@@ -3,6 +3,7 @@
 document.getElementById('download').addEventListener('click', downloadJSON);
 
 function downloadJSON() {
+
   // टेक्स्ट एरिया और आउटपुट्स से डेटा प्राप्त करना
   const textAreaValue = document.getElementById('inp').value;
   const vivaran1 = document.getElementById('SI_vichched').innerText;
@@ -13,8 +14,8 @@ function downloadJSON() {
   const vivaran6 = document.getElementById('chhandasonama').value;
   const vivaran7 = document.getElementById('vname').value;
 
-if(textAreaValue.trim()===""){
-  alert('आद्यं पुटं रिक्तं न भवितुमर्हति ।');
+if(textAreaValue.trim()==="" ||vivaran3 == "" ||vivaran4 == "" ||vivaran5 == ""){
+  alert('परिणामपुटानि रिक्तानि सन्ति ।');
   return;
 }
 
@@ -38,11 +39,10 @@ if(textAreaValue.trim()===""){
   // JSON डेटा को डाउनलोड करने के लिए एक ब्लॉब बनाना
   const blob = new Blob([jsonString], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
-
-  // डाउनलोड लिंक बनाना और ऑटो-क्लिक करना
+  const randomNumber = Math.floor(Math.random() * 100);
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'chh_data.txt';
+  a.download =  "data"+randomNumber+".txt"
   a.click();
 
   // URL को रिलीज़ करना
